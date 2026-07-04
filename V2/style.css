@@ -1,0 +1,48 @@
+body {
+    background: white;
+    color: black;
+    margin: 0 auto;
+}
+
+
+.container-toggle-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.toggle-switch {
+    background: #c5c5c5;
+    border: 1px solid #808080;
+    border-radius: 50px;
+    height: 20px;
+    width: 40px;
+    padding: 3px;
+    transition: all 0.3s ease;
+    cursor:pointer
+}
+
+.toggle-switch:hover .toggle {
+    transform: scale(1.05);
+}
+
+.toggle-switch:active .toggle {
+    transform: scale(0.95);
+}
+
+.toggle-switch.clicked .toggle {
+    margin-left: 20px;
+}
+
+.toggle-switch.clicked {
+    background: rgb(0, 90, 255);
+}
+
+.toggle {
+    background: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}

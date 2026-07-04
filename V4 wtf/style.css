@@ -1,0 +1,71 @@
+body {
+    background: white;
+    color: black;
+    margin: 0 auto;
+}
+
+body.event {
+    background: black;
+    animation: wtf 1s linear infinite;
+}
+
+@keyframes wtf {
+    0% {background: red;}
+    20% {background: rgb(60, 255, 0);}
+    40% {background: rgb(255, 251, 0);}
+    60% {background: rgb(0, 255, 200);}
+    80% {background: rgb(4, 0, 255);}
+    100% {background: rgb(255, 0, 0);}
+}
+
+.container-toggle-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.toggle-switch {
+    background: #c5c5c5;
+    border: 1px solid #808080;
+    border-radius: 50px;
+    height: 20px;
+    width: 40px;
+    padding: 3px;
+    transition: all 0.3s ease;
+    cursor:pointer
+}
+
+.toggle-switch:hover .toggle {
+    transform: scale(1.05);
+}
+
+.toggle-switch:active .toggle {
+    transform: scale(0.95);
+}
+
+.toggle-switch.clicked .toggle {
+    margin-left: 20px;
+}
+
+.toggle-switch.clicked {
+    background: rgb(0, 90, 255);
+    animation: wtf-btn 1s linear infinite;
+}
+
+@keyframes wtf-btn {
+    0% {  transform: rotate(0deg); background: rgb(4, 0, 255);}
+    20% { transform: rotate(72deg); background: rgb(0, 255, 200);}
+    40% { transform: rotate(144deg);background: rgb(255, 0, 0);}
+    60% { transform: rotate(216deg); background:rgb(255, 251, 0);}
+    80% { transform: rotate(288deg);background: rgb(60, 255, 0);}
+    100% {transform: rotate(360deg); background:rgb(4, 0, 255); }
+}
+
+.toggle {
+    background: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}
