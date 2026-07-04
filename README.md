@@ -1,4 +1,5 @@
 # Toggle Switch
 
 ### v1
-![alt text](<0704 (1).gif>)
+
+![alt text](<gif-readme.gif>)
