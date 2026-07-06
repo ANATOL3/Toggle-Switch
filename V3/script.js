@@ -8,12 +8,12 @@ toggleSwitch.addEventListener("click", () => {
 
 if (toggleSwitch.classList.contains("clicked")) {
     console.log("ON");
-    bodyBackground.classList.add("event")
+    bodyBackground.classList.add("pipi")
 
 }
 else{
     console.log("OFF");
-    bodyBackground.classList.remove("event")
+    bodyBackground.classList.remove("pipi")
 }
 
 })

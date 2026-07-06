@@ -2,9 +2,10 @@ body {
     background: white;
     color: black;
     margin: 0 auto;
+    transition: all 0.5s ease;
 }
 
-body.event {
+body.pipi {
     background: black;
 }
 
@@ -36,15 +37,15 @@ body.event {
 
 .toggle-switch.clicked .toggle {
     margin-left: 20px;
-    background: rgb(0, 90, 255);
+    background: rgb(27, 27, 27);
 }
 
 .toggle-switch.clicked {
-    background: rgb(0, 90, 255);
+    background: rgb(61, 61, 61);
 }
 
 .toggle {
-    background: rgb(255, 255, 255);
+    background: rgb(240, 240, 240);
     height: 20px;
     width: 20px;
     border-radius: 50px;

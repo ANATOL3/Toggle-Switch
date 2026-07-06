@@ -2,4 +2,4 @@
 
 ### v1
 
-![alt text](<gif-readme.gif>)
+![alt text](gif-readme.gif)
